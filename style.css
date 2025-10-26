@@ -2,70 +2,59 @@
 body {
     direction: rtl;
     font-family: "Vazirmatn", sans-serif;
-    padding-top: 40px;
-    background-color: #000000; /* مشکی کامل */
+    background-color: #000000; /* مشکی */
     color: #fdba24; /* زرد */
     margin: 0;
     text-align: center;
 }
 
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.logo {
-    width: 250px; /* بزرگتر */
-    max-width: 80%;
+/* تصویر عسل در بالای صفحه */
+.honey-banner img {
+    width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    display: block;
 }
 
+/* لوگو خیلی بزرگ */
+.hero {
+    padding: 40px 20px;
+}
+.logo {
+    width: 300px; /* بزرگتر */
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* دکمه‌ها */
 .d-grid .btn-big {
-    padding: 14px 20px;
-    font-size: 1.2rem;
+    padding: 16px 20px;
+    font-size: 1.3rem;
     border-radius: 12px;
     font-weight: bold;
     transition: 0.3s;
 }
 
-/* دکمه‌ها */
-.btn-primary {
+/* دکمه‌های زنبوری */
+.btn-yellow {
     background-color: #fdba24;
     color: #000;
     border: none;
 }
-.btn-primary:hover {
+.btn-yellow:hover {
     background-color: #e0a31b;
 }
 
-.btn-success {
-    background-color: #fdba24;
-    color: #000;
-    border: none;
-}
-.btn-success:hover {
-    background-color: #e0a31b;
-}
-
-.btn-outline-secondary {
+.btn-black {
+    background-color: #000000;
     color: #fdba24;
     border: 2px solid #fdba24;
 }
-.btn-outline-secondary:hover {
-    background-color: #fdba24;
-    color: #000;
-}
-
-.btn-dark {
+.btn-black:hover {
     background-color: #222;
-    color: #fdba24;
-    border: 2px solid #fdba24;
-}
-.btn-dark:hover {
-    background-color: #333;
 }
 
+/* فاصله پایین صفحه */
 footer {
     margin-top: 50px;
     color: #ccc;

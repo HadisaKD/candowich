@@ -1,0 +1,61 @@
+body {
+    background-color: #000000;
+    color: #fdba24;
+    font-family: "Vazirmatn", sans-serif;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.menu-header h1 {
+    font-size: 2.5rem;
+}
+
+.menu-header p {
+    font-size: 1.2rem;
+    color: #ffe680;
+}
+
+.cooking-animation {
+    font-size: 2rem;
+    margin-top: 15px;
+    animation: cooking 1.5s infinite;
+}
+
+/* انیمیشن پخت و پز */
+@keyframes cooking {
+    0% { transform: translateY(0) scale(1); opacity: 0.7; }
+    50% { transform: translateY(-10px) scale(1.1); opacity: 1; }
+    100% { transform: translateY(0) scale(1); opacity: 0.7; }
+}
+
+/* کارت غذا */
+.menu-card {
+    background-color: #111;
+    border: 2px solid #fdba24;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: scale(1.05);
+}
+
+.menu-card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-title {
+    color: #fdba24;
+}
+
+.card-text {
+    color: #fffbee;
+}
+
+.price {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fdba24;
+}

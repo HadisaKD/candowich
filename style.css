@@ -1,4 +1,4 @@
-/* اضافه کردن فونت Capsule */
+/* فونت دلخواه */
 @font-face {
     font-family: 'Capsule';
     src: url('fonts/Capsule-Black.ttf') format('truetype');
@@ -6,35 +6,42 @@
     font-style: normal;
 }
 
+/* عکس عسل full-width بالای صفحه */
+.honey-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh; /* نصف ارتفاع صفحه */
+    overflow: hidden;
+    z-index: 0;
+}
+
+.honey-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* بدنه صفحه */
 body {
     direction: rtl;
     font-family: 'Capsule', sans-serif;
-    background-color: #000000; /* مشکی */
-    color: #fdba24;           /* زرد */
+    background-color: #000000;
+    color: #fdba24;
     margin: 0;
-    text-align: center;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-}
-
-/* عکس عسل بالای صفحه */
-.honey-banner img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 50vh; /* محتوا پایین عکس */
 }
 
 /* لوگو */
 .logo {
     width: auto;
     max-width: 90%;
-    height: 38vh; /* بزرگ ولی جا دار */
+    height: 38vh;
     margin-bottom: 20px;
 }
 

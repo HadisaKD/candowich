@@ -1,14 +1,21 @@
-/* بدنه صفحه */
+/* اضافه کردن فونت Capsule */
+@font-face {
+    font-family: 'Capsule';
+    src: url('fonts/Capsule-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    background-color: #000000; /* مشکی */
-    color: #fdba24;           /* زرد */
-    font-family: "Vazirmatn", sans-serif;
+    background-color: #000000;
+    color: #fdba24;
+    font-family: 'Capsule', sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* وسط عمودی */
-    align-items: center;      /* وسط افقی */
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 20px;
 }
@@ -21,9 +28,9 @@ body {
     margin-bottom: 20px;
 }
 
-/* متن اصلی */
+/* متن آماده‌سازی */
 h1 {
-    font-size: 2rem; /* کمی کوچکتر */
+    font-size: 2rem;
     margin-bottom: 20px;
     line-height: 1.2;
 }
@@ -32,12 +39,12 @@ h1 {
 .video-container video {
     max-width: 100%;
     height: auto;
-    border: 3px solid #fdba24; /* حاشیه زرد */
+    border: 3px solid #fdba24;
     border-radius: 12px;
-    box-shadow: 0 0 20px rgba(253, 186, 36, 0.5); /* سایه زرد ملایم */
+    box-shadow: 0 0 20px rgba(253, 186, 36, 0.5);
 }
 
-/* واکنشگرا برای موبایل */
+/* واکنشگرا */
 @media (max-width: 768px) {
     h1 {
         font-size: 1.6rem;

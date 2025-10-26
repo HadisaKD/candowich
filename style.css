@@ -3,30 +3,27 @@ body {
     direction: rtl;
     font-family: "Vazirmatn", sans-serif;
     padding-top: 40px;
-    background-color: #111; /* پس‌زمینه مشکی */
-    color: #ffd700; /* متن زرد */
+    background-color: #000000; /* مشکی کامل */
+    color: #fdba24; /* زرد */
     margin: 0;
+    text-align: center;
 }
 
 .hero {
     text-align: center;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
-.hero h1 {
-    font-size: 2.8rem;
-    color: #ffd700;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    color: #ffe680;
+.logo {
+    width: 250px; /* بزرگتر */
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .d-grid .btn-big {
     padding: 14px 20px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border-radius: 12px;
     font-weight: bold;
     transition: 0.3s;
@@ -34,43 +31,42 @@ body {
 
 /* دکمه‌ها */
 .btn-primary {
-    background-color: #ffd700;
-    color: #111;
+    background-color: #fdba24;
+    color: #000;
     border: none;
 }
 .btn-primary:hover {
-    background-color: #e6c200;
+    background-color: #e0a31b;
 }
 
 .btn-success {
-    background-color: #ffd700;
-    color: #111;
+    background-color: #fdba24;
+    color: #000;
     border: none;
 }
 .btn-success:hover {
-    background-color: #e6c200;
+    background-color: #e0a31b;
 }
 
 .btn-outline-secondary {
-    color: #ffd700;
-    border: 2px solid #ffd700;
+    color: #fdba24;
+    border: 2px solid #fdba24;
 }
 .btn-outline-secondary:hover {
-    background-color: #ffd700;
-    color: #111;
+    background-color: #fdba24;
+    color: #000;
 }
 
 .btn-dark {
-    background-color: #333;
-    color: #ffd700;
-    border: 2px solid #ffd700;
+    background-color: #222;
+    color: #fdba24;
+    border: 2px solid #fdba24;
 }
 .btn-dark:hover {
-    background-color: #444;
+    background-color: #333;
 }
 
 footer {
-    text-align: center;
     margin-top: 50px;
     color: #ccc;
     font-size: 0.9rem;

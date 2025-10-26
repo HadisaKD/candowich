@@ -26,19 +26,19 @@ body {
     padding: 20px;
 }
 
-/* لوگوی خیلی بزرگ */
+/* لوگوی بزرگ اما کمی کوچکتر */
 .logo {
     width: auto;
     max-width: 90%;
-    max-height: 50vh; /* تقریبا نصف ارتفاع صفحه */
+    max-height: 40vh; /* کاهش از 50vh به 40vh */
     height: auto;
     margin-bottom: 20px;
 }
 
 /* دکمه‌ها */
 .d-grid .btn-big {
-    padding: 12px 16px; /* کوچکتر شد */
-    font-size: 1.1rem;  /* کمی کوچکتر */
+    padding: 12px 16px;
+    font-size: 1.1rem;
     border-radius: 12px;
     font-weight: bold;
     transition: 0.3s;

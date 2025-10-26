@@ -6,6 +6,7 @@ body {
     color: #fdba24; /* زرد */
     margin: 0;
     text-align: center;
+    height: 100vh; /* ارتفاع کل صفحه */
 }
 
 /* تصویر عسل در بالای صفحه */
@@ -15,20 +16,27 @@ body {
     display: block;
 }
 
-/* لوگو خیلی بزرگ */
+/* لوگو خیلی بزرگ بدون اسکرول */
 .hero {
-    padding: 40px 20px;
+    padding: 0 20px;
+    height: 100vh; /* تمام ارتفاع صفحه */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* وسط‌چین عمودی */
+    align-items: center;     /* وسط‌چین افقی */
 }
+
+/* لوگو بزرگ */
 .logo {
     width: 300px; /* بزرگتر */
-    max-width: 90%;
+    max-width: 40%; /* حداکثر 40٪ صفحه */
     height: auto;
     margin-bottom: 30px;
 }
 
 /* دکمه‌ها */
 .d-grid .btn-big {
-    padding: 16px 20px;
+    padding: 14px 20px;
     font-size: 1.3rem;
     border-radius: 12px;
     font-weight: bold;
@@ -56,7 +64,7 @@ body {
 
 /* فاصله پایین صفحه */
 footer {
-    margin-top: 50px;
+    margin-top: 20px;
     color: #ccc;
     font-size: 0.9rem;
 }

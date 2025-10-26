@@ -5,45 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>منوی کندوویچ</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="menu-style.css">
+  <style>
+    body {
+      background-color: #000000;
+      color: #fdba24;
+      font-family: "Vazirmatn", sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    video {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #fdba24;
+      border-radius: 12px;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <div class="menu-header text-center">
-      <h1>🍔 منوی کندوویچ</h1>
-      <p>غذاهای خوشمزه ما</p>
-      <!-- محل انیمیشن پخت و پز -->
-      <div class="cooking-animation">
-        🔥🥩🍔
-      </div>
-    </div>
+  <h1>در حال آماده‌سازی منو هستیم</h1>
 
-    <div class="row menu-items mt-4">
-      <!-- کارت غذا -->
-      <div class="col-md-4 mb-4">
-        <div class="card menu-card">
-          <img src="images/burger1.png" class="card-img-top" alt="برگر مخصوص">
-          <div class="card-body text-center">
-            <h5 class="card-title">برگر مخصوص</h5>
-            <p class="card-text">گوشت تازه، پنیر و سس مخصوص</p>
-            <span class="price">55,000 تومان</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="card menu-card">
-          <img src="images/fries.png" class="card-img-top" alt="سیب‌زمینی سرخ‌کرده">
-          <div class="card-body text-center">
-            <h5 class="card-title">سیب‌زمینی سرخ‌کرده</h5>
-            <p class="card-text">ترد و داغ</p>
-            <span class="price">15,000 تومان</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- میتونی کارت‌های بیشتر اضافه کنی -->
-    </div>
-  </div>
+  <video autoplay loop muted playsinline>
+    <source src="videos/cooking.mp4" type="video/mp4">
+    مرورگر شما ویدئو را پشتیبانی نمی‌کند.
+  </video>
 </body>
 </html>

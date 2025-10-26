@@ -30,10 +30,11 @@ body {
 .logo {
     width: auto;
     max-width: 90%;
-    max-height: 40vh; /* کاهش از 50vh به 40vh */
+    max-height: 30vh; /* کاهش بیشتر از 40vh به 35vh */
     height: auto;
     margin-bottom: 20px;
 }
+
 
 /* دکمه‌ها */
 .d-grid .btn-big {

@@ -29,17 +29,19 @@ body {
 .logo {
     width: auto;
     max-width: 90%;
-    height: 50vh; /* بزرگ و چشمگیر */
-    margin-bottom: 15px;
+    height: 38vh; 
+    margin-bottom: 20px; 
 }
 
+
 .d-grid .btn-big {
-    padding: 10px 14px;
-    font-size: 1rem;  /* کمی کوچک‌تر */
+    padding: 12px 16px; 
+    font-size: 1.1rem;  
     border-radius: 12px;
     font-weight: bold;
     transition: 0.3s;
 }
+
 
 /* دکمه‌های زنبوری */
 .btn-yellow {

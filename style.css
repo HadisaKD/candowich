@@ -1,47 +1,51 @@
+/* اضافه کردن فونت Capsule */
+@font-face {
+    font-family: 'Capsule';
+    src: url('fonts/Capsule-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* بدنه صفحه */
 body {
     direction: rtl;
-    font-family: "Vazirmatn", sans-serif;
+    font-family: 'Capsule', sans-serif;
     background-color: #000000; /* مشکی */
-    color: #fdba24; /* زرد */
+    color: #fdba24;           /* زرد */
     margin: 0;
     text-align: center;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 
+/* عکس عسل بالای صفحه */
 .honey-banner img {
     width: 100%;
     height: auto;
     display: block;
+    margin-bottom: 20px;
 }
 
-/* hero بزرگ و وسط‌چین */
-.hero {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* وسط عمودی */
-    align-items: center;     /* وسط افقی */
-    padding: 20px;
-}
-
+/* لوگو */
 .logo {
     width: auto;
     max-width: 90%;
-    height: 38vh; 
-    margin-bottom: 20px; 
+    height: 38vh; /* بزرگ ولی جا دار */
+    margin-bottom: 20px;
 }
 
-
+/* دکمه‌ها */
 .d-grid .btn-big {
-    padding: 12px 16px; 
-    font-size: 1.1rem;  
+    padding: 12px 16px;
+    font-size: 1.1rem;
     border-radius: 12px;
     font-weight: bold;
     transition: 0.3s;
 }
-
 
 /* دکمه‌های زنبوری */
 .btn-yellow {

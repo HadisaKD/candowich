@@ -56,6 +56,12 @@ body {
     transition: 0.3s;
 }
 
+/* پایین‌تر آوردن دکمه‌ها */
+.d-grid {
+    margin-top: 30px; /* فاصله از لوگو */
+}
+
+
 /* دکمه‌های زنبوری */
 .btn-yellow {
     background-color: #fdba24;

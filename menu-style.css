@@ -42,12 +42,14 @@ body {
     padding-top: 0;       /* محتوا دقیقاً زیر عکس شروع شود */
 }
 
-/* متن آماده‌سازی منو کمی بزرگ‌تر */
+
 h1 {
-    font-size: 2.4rem;    /* کمی بزرگ‌تر شد */
+    font-size: 2.4rem;    /* همان اندازه قبلی */
+    margin-top: 40px;     /* فاصله از بالای عکس */
     margin-bottom: 20px;
     line-height: 1.2;
 }
+
 
 /* ویدئو */
 .video-container video {
